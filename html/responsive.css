@@ -1,0 +1,70 @@
+@media(max-width: 991px){
+
+	.web-header-menu{
+		display: none;
+	}
+	.web-header-menu ul{
+		display: block;
+		background: rgba(0, 0, 0, .40);
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		padding: 30px 0 20px;
+	}
+	.web-header-menu ul li a{
+		color: #fff;
+		font-size: 18px;
+		padding-left: 20px;
+
+	}
+	.web-menu-icon{
+		display: block;
+		text-align: right;
+	}
+	.web-menu-icon i.fa-times{
+		display: none;
+	}
+	.web-team-items{
+		margin-bottom: 20px;
+	}
+	.web-contact-map{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.web-contact-map iframe{
+		width: 100%;
+	}
+	.form{
+		width: 100%;
+	}
+	.form textarea{
+		width: 100%;
+	}
+	.form input{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.form button{
+		width: 100%;
+		margin: 0;
+	}
+	
+}
+
+@media(max-width: 1200px){
+	.form textarea{
+		width: 100%;
+	}
+	.form input{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.form button{
+		width: 100%;
+		margin: 0;
+	}
+	.web-contact-map iframe{
+		height: 350px;
+	}
+}

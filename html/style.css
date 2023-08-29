@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==
+			Header area
+-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+header{
+	background: #fff;
+	padding: 25px 0;
+	position: relative;
+}
+
+.web-header-menu ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+}
+.web-header-menu ul li a{
+	font-size: 12px;
+	color: #a7a7a7;
+	text-transform: uppercase;
+	padding-right: 100px;
+}
+.web-menu-icon{
+	display: none;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==
+			Hero section
+-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+.web-hero{
+	background: url(../images/hero.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 166px 0 46px;
+}
+.web-hero-text{
+	text-align: center;
+	margin-bottom: 67px;
+}
+.web-hero-text h1{
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.web-hero-arrow{
+	width: 65px;
+	height: 65px;
+	background: #f0f1ee;
+	border-radius: 50%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin: auto;
+}
+.arrow-ovarlay{
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .30);
+	        box-shadow: 0 0 5px rgba(0, 0, 0, .30);
+}
+.arrow-ovarlay a{
+	font-size: 17px;
+	color: rgba(0, 0, 0, .80);
+}
+.arrow-ovarlay a i{
+	font-weight: bold;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==
+			Work section
+-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+.web-work{
+	padding: 50px 0 60px;
+}
+.web-work-title{
+	text-align: center;
+}
+.web-work-title h1{
+	font-weight: 700;
+	font-size: 30px;
+	color: #303030;
+	text-transform: uppercase;
+	position: relative;
+}
+.web-work-title h1:after{
+	content: '';
+	display: block;
+	width: 190px;
+	height: 3px;
+	background: #000;
+	position: absolute;
+	top: 115%;
+	left: 50%;
+	-webkit-transform: translate(-50%);
+	    -ms-transform: translate(-50%);
+	        transform: translate(-50%);
+}
+.web-work-text{
+	text-align: center;
+}
+.web-work-text p{
+	font-size: 16px;
+	color: #5a5a5a;
+	margin: 30px 0 52px;
+}
+
+
+.web-work-img{
+	margin-bottom: 25px;
+}
+.web-work-img img{
+	width: 100%;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==
+			Team section
+-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+.web-team{
+	background: #f3f3f3;
+	padding: 48px 0 78px;
+}
+.web-team-items{
+	background: #fff;
+	text-align: center;
+	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, .30);
+	        box-shadow: 4px 4px 10px rgba(0, 0, 0, .30);
+	padding: 29px 29px;
+	border-radius: 5px;
+}
+.web-team-img{
+	margin-bottom: 15px;
+}
+.web-team-img img{
+	margin: auto;
+}
+.web-team-text{
+	text-align: center;
+	line-height: 2px;
+}
+.web-team-text h4{
+	font-size: 16px;
+	color: #303030;
+	font-weight: bold;
+}
+.web-team-text em{
+	font-size: 12px;
+	color: #303030;
+
+}
+.web-team-text ul{
+	margin-top: 30px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.web-team-text ul li a{
+	padding: 0 10px;
+	color: #a7a7a7;
+	font-size: 18px;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==
+			Contact section
+-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+
+.web-contact{
+	padding: 48px 0 67px;
+	background: #fff;
+}
+.web-contact .web-work-title{
+	margin-bottom: 45px;
+}
+.web-contact-text{
+	padding-bottom: 20px;
+	width: 90%;
+	margin: auto;
+	padding-left: 8px;
+}
+.web-contact-text h4{
+	font-size: 16px;
+	color: #5a5a5a;
+}
+.web-contact-map{
+	padding: 10px;
+	background: rgba(0, 0, 0, .10);
+	border-radius: 10px;
+	width: 100%;
+	margin: auto;
+}
+.web-contact-map iframe{
+	width: 100%;
+	height: 260px;
+	border-radius: 5px;
+	-webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, .30), -2px -2px 10px #fff;
+	        box-shadow: 2px 2px 10px rgba(0, 0, 0, .30), -2px -2px 10px #fff;
+}
+
+.form{
+	width: 90%;
+	margin: auto;
+}
+.form textarea{
+	background: #f2f2f2;
+	padding: 10px 15px;
+	outline: none;
+}
+.form input{
+	padding: 20px 15px;
+	width: 60%;
+	display: inline-block;
+	background: #f2f2f2;
+	outline: none;
+}
+.form button{
+	padding: 20px 70px;
+	border: none;
+	margin-left: 10px;
+	font-weight: 700;
+	color: #fff;
+	background: #6995a9;
+	border-radius: 5px;
+
+}
+.form button img{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==
+			Footer section
+-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+footer{
+	background: #4f4f4f;
+	padding: 33px 0;
+}
+.web-footer-text-left p{
+	font-size: 16px;
+	color: #6e6e6e;
+}
+.web-footer-text-right{
+	text-align: right;
+}
+.web-footer-text-right p{
+	font-size: 16px;
+	color: #6e6e6e;
+}
+.web-footer-text-left p span{
+	color: rgba(255, 255, 255, .50);
+}
+
+
+
+
+.scroll{
+	position: fixed;
+	bottom: 15px;
+	right: 25px;
+	display: none;
+}
+.scroll i{
+	color: rgba(0, 0, 0, .40);
+	font-size: 45px;
+	cursor: pointer;
+}

@@ -1,0 +1,25 @@
+@media(max-width: 991px){
+
+	header{
+		margin: 30px auto 30px;
+	}
+	.form-area{
+		margin-top: 0;
+	}
+	.img-top img{
+		left: 50%;
+		top: 0;
+		transform: translate(-50%);
+	}
+	.section-title{
+		text-align: center;
+	}
+	.form-area{
+		margin: auto;
+		margin-top: 20px;
+	}
+
+	/* -=-=-=-=-=-=-=-=-=-=-=-=-
+			Home page end
+	=-=-=-=-=-=-=-=-=-=-=-=-=- */
+}
